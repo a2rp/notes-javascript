@@ -1,6 +1,6 @@
 # a2rp: JavaScript Notes
 
-Concise **JavaScript core notes** — _Definition → Short Example → Must-Know_.
+Concise **JavaScript core notes** - _Definition → Short Example → Must-Know_.
 
 **Live:** https://a2rp.github.io/notes-javascript/  
 **Repo:** https://github.com/a2rp/notes-javascript

@@ -24,7 +24,7 @@ const linkHover = css`
 `;
 
 /* ---------- Shared components ---------- */
-export const StyledTopic = {
+export const Styled = {
     /* Page wrapper for every topic/overview page */
     Wrapper: styled.div`
         padding: 50px;

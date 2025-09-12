@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledTopic as Styled } from "./styled";
+import { Styled } from "./styled";
 
 /**
  * Program structure & ASI
