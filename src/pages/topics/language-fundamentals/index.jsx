@@ -3,7 +3,9 @@ import React, { lazy, Suspense, useMemo } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import styled from "styled-components";
 
-/** Slugs → titles → dynamic imports (files live in the same folder) */
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { LF_TOPICS } from "./topics.meta";
+
 const TOPICS = [
     { slug: "program-structure-asi", title: "Program structure & ASI", loader: () => import("./ProgramStructureAsi.jsx") },
     { slug: "identifiers-reserved-words", title: "Identifiers & reserved words", loader: () => import("./IdentifiersReservedWords.jsx") },
@@ -34,6 +36,12 @@ const loaders = Object.fromEntries(TOPICS.map(t => [t.slug, t.loader]));
 function Overview() {
     return (
         <Styled.Wrapper>
+            <Breadcrumbs
+                sectionLabel="Language Fundamentals"
+                sectionPath="/language-fundamentals"
+                topics={LF_TOPICS}
+            />
+
             <Styled.Heading>Language Fundamentals</Styled.Heading>
 
             <Styled.ListWrapper>

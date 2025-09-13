@@ -1,8 +1,17 @@
 import { Styled } from "./styled";
 
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { LF_TOPICS } from "./topics.meta";
+
 export default function IdentifiersReservedWords() {
     return (
         <Styled.Wrapper>
+            <Breadcrumbs
+                sectionLabel="Language Fundamentals"
+                sectionPath="/language-fundamentals"
+                topics={LF_TOPICS}
+            />
+
             <Styled.Heading>Identifiers & reserved words</Styled.Heading>
 
             <Styled.Prose>

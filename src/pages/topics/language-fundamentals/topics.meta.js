@@ -1,0 +1,32 @@
+export const LF_TOPICS = [
+    { slug: "program-structure-asi", title: "Program structure & ASI" },
+    {
+        slug: "identifiers-reserved-words",
+        title: "Identifiers & reserved words",
+    },
+    { slug: "strict-mode", title: "Strict mode" },
+    { slug: "values-types", title: "Values & types" },
+    { slug: "type-checks", title: "Type checks" },
+    { slug: "truthy-falsy", title: "Truthy & falsy" },
+    { slug: "equality", title: "Equality" },
+    { slug: "type-coercion", title: "Type coercion" },
+    { slug: "var-let-const", title: "var vs let vs const" },
+    { slug: "scope", title: "Scope" },
+    { slug: "tdz", title: "TDZ" },
+    { slug: "hoisting", title: "Hoisting" },
+    { slug: "closures", title: "Closures" },
+    {
+        slug: "operator-basics-precedence",
+        title: "Operator basics & precedence",
+    },
+    {
+        slug: "arithmetic-comparison-logical",
+        title: "Arithmetic, comparison, logical",
+    },
+    { slug: "modern-operators", title: "Modern operators" },
+    { slug: "bitwise-shift", title: "Bitwise & shift" },
+    { slug: "control-flow", title: "Control flow" },
+    { slug: "loops", title: "Loops" },
+    { slug: "forof-forin", title: "for…of vs for…in" },
+    { slug: "labels-break-continue", title: "Labels, break, continue" },
+];

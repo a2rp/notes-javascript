@@ -1,12 +1,21 @@
 import React from "react";
 import { Styled } from "./styled";
 
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { LF_TOPICS } from "./topics.meta";
+
 /**
  * Program structure & ASI
  */
 export default function ProgramStructureAsi() {
     return (
         <Styled.Wrapper>
+            <Breadcrumbs
+                sectionLabel="Language Fundamentals"
+                sectionPath="/language-fundamentals"
+                topics={LF_TOPICS}
+            />
+
             <Styled.Heading>Program structure & ASI</Styled.Heading>
 
             <Styled.Prose>

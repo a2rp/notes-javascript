@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <Styled.Wrapper>
-                <h3>JavaScript Notes - last updated: Sep 12, 2025</h3>
+                <h3>JavaScript Notes - last updated: Sep 13, 2025</h3>
                 <fieldset>
                     <legend>From WikipediA</legend>
                     <p>
