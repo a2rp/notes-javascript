@@ -50,9 +50,9 @@ const NavListCore = () => {
                     <li><NavLink to="/functions-this/function-forms" title="Declaration vs expression">Function forms</NavLink></li>
                     <li><NavLink to="/functions-this/arrow-functions" title="Lexical this; concise bodies; pitfalls">Arrow functions</NavLink></li>
                     <li><NavLink to="/functions-this/parameters" title="Default, rest, destructured params">Parameters</NavLink></li>
-                    <li><NavLink to="/functions-this/this-binding" title="Default, implicit, explicit, new, arrow">this binding rules</NavLink></li>
+                    <li><NavLink to="/functions-this/this-binding-rules" title="Default, implicit, explicit, new, arrow">this binding rules</NavLink></li>
                     <li><NavLink to="/functions-this/call-apply-bind" title="Patterns with call/apply/bind">call / apply / bind</NavLink></li>
-                    <li><NavLink to="/functions-this/returns" title="Return values; early returns">Return patterns</NavLink></li>
+                    <li><NavLink to="/functions-this/return-patterns" title="Return values; early returns">Return patterns</NavLink></li>
                 </ul>
 
                 <h3>Objects & Prototypes</h3>
