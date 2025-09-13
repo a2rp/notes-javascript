@@ -2,19 +2,17 @@ import styled from "styled-components";
 
 export const Styled = {
     Nav: styled.div`
-        a {
-            text-decoration: none;
-            color: #666;
-            &.active {
-                color: orangered;
-            }
-            &:hover {
-                color: orangered;
-            }
-        }
-
         h3 {
-            /* spacing if needed */
+            a {
+                text-decoration: none;
+                color: #666;
+                &.active {
+                    color: orangered;
+                }
+                &:hover {
+                    color: orangered;
+                }
+            }
         }
 
         ul {

@@ -1,0 +1,15 @@
+export const BI_TOPICS = [
+    { slug: "arrays-basics", title: "Arrays: basics" },
+    { slug: "array-map-filter-reduce", title: "Array: map / filter / reduce" },
+    { slug: "sorting", title: "Sorting correctly" },
+    { slug: "strings-unicode", title: "Strings & Unicode" },
+    { slug: "numbers-basics", title: "Numbers basics" },
+    { slug: "bigint", title: "BigInt" },
+    { slug: "math-essentials", title: "Math essentials" },
+    { slug: "dates-intl", title: "Dates & Intl overview" },
+    { slug: "regexp", title: "RegExp" },
+    { slug: "json", title: "JSON" },
+    { slug: "map-set", title: "Map/Set vs Object/Array" },
+    { slug: "weakmap-weakset", title: "WeakMap/WeakSet" },
+    { slug: "typed-arrays", title: "Typed arrays & buffers" },
+];
