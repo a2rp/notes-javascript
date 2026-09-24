@@ -59,7 +59,7 @@ console.log("B");
 function badSpin(){
   if (i++ < 1_000_000) queueMicrotask(badSpin);
 }
-queueMicrotask(badSpin);   // UI/timers may stall — avoid tight microtask loops`}</Styled.Pre>
+queueMicrotask(badSpin);   // UI/timers may stall  -  avoid tight microtask loops`}</Styled.Pre>
 
                 <h2>Yield back to the loop</h2>
                 <ul>

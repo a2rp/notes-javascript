@@ -17,7 +17,7 @@ export default function DynamicImportTla() {
                 <p>
                     <b>Definition.</b> <code>import()</code> loads a module <b>dynamically at runtime</b> and
                     returns a <b>Promise</b>. <b>Top-level await (TLA)</b> lets a module <code>await</code> at
-                    the top level—its dependents wait until it finishes evaluating.
+                    the top level - its dependents wait until it finishes evaluating.
                 </p>
 
                 <h2>Dynamic <code>import()</code> (lazy load / code-split)</h2>
@@ -92,7 +92,7 @@ export const [a, b] = await Promise.all([p1, p2]);`}</Styled.Pre>
                 <h2>Common gotchas</h2>
                 <ul>
                     <li>Dynamic import is async; don't use it where synchronous availability is required.</li>
-                    <li>TLA delays dependents—avoid long, serial awaits across many modules.</li>
+                    <li>TLA delays dependents - avoid long, serial awaits across many modules.</li>
                     <li>Bundle tools need static analysis for tree-shaking; keep most imports static.</li>
                     <li>When building specifiers dynamically, validate inputs to avoid unexpected requests.</li>
                 </ul>

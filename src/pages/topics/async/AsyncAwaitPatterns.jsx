@@ -70,7 +70,7 @@ const out = await Promise.all(ps);`}</Styled.Pre>
 
                 <h2>Loop gotchas</h2>
                 <ul>
-                    <li><code>forEach</code> ignores async/await — don't use it for async loops.</li>
+                    <li><code>forEach</code> ignores async/await  -  don't use it for async loops.</li>
                     <li><code>map(async)</code> creates promises; remember to <code>await Promise.all</code>.</li>
                 </ul>
                 <Styled.Pre>{`// ❌ won't wait

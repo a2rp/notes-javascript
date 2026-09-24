@@ -102,7 +102,7 @@ obj.m(); // "child"`}</Styled.Pre>
                 <h2>Multiple inheritance?</h2>
                 <ul>
                     <li>JS prototypes are <b>single</b>-chain. To combine behaviors, use <b>mixins</b> or composition.</li>
-                    <li>Avoid deep/diamond hierarchies—keep chains shallow and behaviors isolated.</li>
+                    <li>Avoid deep/diamond hierarchies - keep chains shallow and behaviors isolated.</li>
                 </ul>
 
                 <h2>Gotchas & rules</h2>
@@ -110,7 +110,7 @@ obj.m(); // "child"`}</Styled.Pre>
                     <li><b>Classes:</b> call <code>super()</code> in subclass constructor before using <code>this</code>.</li>
                     <li><b>Arrow methods in classes:</b> instance fields (e.g., <code>m = () =&gt; …</code>) are per-instance; prefer prototype methods for shared behavior.</li>
                     <li><b>ES5:</b> reset <code>constructor</code> after setting prototype; use <code>Parent.call(this,…)</code> to initialize state.</li>
-                    <li><b>Performance:</b> avoid <code>Object.setPrototypeOf</code> after creation—create with the right proto.</li>
+                    <li><b>Performance:</b> avoid <code>Object.setPrototypeOf</code> after creation - create with the right proto.</li>
                     <li><b>Super in non-classes:</b> there’s no <code>super</code>; call parent method explicitly with <code>Parent.prototype.fn.call(this,…)</code>.</li>
                 </ul>
 

@@ -63,7 +63,7 @@ function makeAdder(n){
                 <h2>When it's sometimes used</h2>
                 <ul>
                     <li>Loading user-written plugins/snippets in a <b>controlled sandbox</b>.</li>
-                    <li>Generating small specialized functions (micro-templating)—still risky; prefer templates.</li>
+                    <li>Generating small specialized functions (micro-templating) - still risky; prefer templates.</li>
                 </ul>
 
                 <h2>Safer alternatives</h2>

@@ -120,7 +120,7 @@ parseInt("ff", 16); // 255`}</Styled.Pre>
 
                 <h2>Must-know (checklist)</h2>
                 <ul>
-                    <li>All JS numbers are doubles; expect FP rounding issues — compare with <code>EPSILON</code> tolerance.</li>
+                    <li>All JS numbers are doubles; expect FP rounding issues  -  compare with <code>EPSILON</code> tolerance.</li>
                     <li>Stay within <b>safe integer</b> range for exact ints; otherwise use <b>BigInt</b>.</li>
                     <li>Use <code>Number.isNaN</code>/<code>Number.isFinite</code> (no coercion).</li>
                     <li>Be aware of <b>-0</b>; detect via <code>Object.is</code> if needed.</li>

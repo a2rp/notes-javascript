@@ -22,15 +22,15 @@ export default function ThisBindingRules() {
 
                 <h2>Four binding rules (priority)</h2>
                 <ol>
-                    <li><b>new</b> — constructor call: <code>new Fn()</code> makes a fresh <code>this</code>.</li>
+                    <li><b>new</b>  -  constructor call: <code>new Fn()</code> makes a fresh <code>this</code>.</li>
                     <li>
-                        <b>Explicit</b> — <code>call/apply/bind</code> set <code>this</code> to what you pass.
+                        <b>Explicit</b>  -  <code>call/apply/bind</code> set <code>this</code> to what you pass.
                     </li>
                     <li>
-                        <b>Implicit</b> — <code>obj.method()</code> binds <code>this === obj</code> (receiver).
+                        <b>Implicit</b>  -  <code>obj.method()</code> binds <code>this === obj</code> (receiver).
                     </li>
                     <li>
-                        <b>Default</b> — plain call: <code>Fn()</code>. In modules/strict:{" "}
+                        <b>Default</b>  -  plain call: <code>Fn()</code>. In modules/strict:{" "}
                         <code>this === undefined</code>; otherwise global object.
                     </li>
                 </ol>
@@ -124,7 +124,7 @@ class Counter {
                 <h2>Must-know (checklist)</h2>
                 <ul>
                     <li>Decide by call-site: <b>new → explicit → implicit → default</b>. Arrows are lexical.</li>
-                    <li>Extracted methods lose their receiver — bind or wrap.</li>
+                    <li>Extracted methods lose their receiver  -  bind or wrap.</li>
                     <li>Arrows ignore <code>call/apply/bind</code> for <code>this</code>; use them when you want outer <code>this</code>.</li>
                     <li>Module/global differences: top-level <code>this</code> is <code>undefined</code> in modules.</li>
                 </ul>

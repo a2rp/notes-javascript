@@ -22,13 +22,13 @@ export default function CallApplyBind() {
                 <h2>What they do</h2>
                 <ul>
                     <li>
-                        <b><code>fn.call(thisArg, ...args)</code></b> — invoke now, pass args one by one.
+                        <b><code>fn.call(thisArg, ...args)</code></b>  -  invoke now, pass args one by one.
                     </li>
                     <li>
-                        <b><code>fn.apply(thisArg, argsArrayLike)</code></b> — invoke now, pass an array/array-like.
+                        <b><code>fn.apply(thisArg, argsArrayLike)</code></b>  -  invoke now, pass an array/array-like.
                     </li>
                     <li>
-                        <b><code>fn.bind(thisArg, ...preset)</code></b> — returns a <i>new</i> function with{" "}
+                        <b><code>fn.bind(thisArg, ...preset)</code></b>  -  returns a <i>new</i> function with{" "}
                         <code>this</code> and leading args locked in (partial application).
                     </li>
                 </ul>
@@ -132,7 +132,7 @@ g.name     // "bound f"`}</Styled.Pre>
                 <ul>
                     <li><code>call</code> → now (variadic), <code>apply</code> → now (array), <code>bind</code> → later (locks this + args).</li>
                     <li>Prefer spread over <code>apply</code> in modern code; use <code>Reflect.apply</code> for explicit borrowing.</li>
-                    <li>Extracted methods lose their receiver — fix with <code>bind</code> or wrap in an arrow.</li>
+                    <li>Extracted methods lose their receiver  -  fix with <code>bind</code> or wrap in an arrow.</li>
                     <li><code>new</code> overrides a bound <code>this</code>, but not bound arguments.</li>
                     <li>Don’t bind inside hot loops/renders; create once and reuse.</li>
                 </ul>

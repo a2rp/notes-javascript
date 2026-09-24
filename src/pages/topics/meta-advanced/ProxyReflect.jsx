@@ -31,12 +31,12 @@ p.age = 37;     // logs "set age 37"`}</Styled.Pre>
 
                 <h2>Common traps</h2>
                 <ul>
-                    <li><b>get / set</b> — property access/assign; mind the <i>receiver</i> for <code>this</code> binding.</li>
-                    <li><b>has</b> — <code>k in obj</code>.</li>
-                    <li><b>ownKeys</b> — <code>Object.keys</code>, spread, <code>Reflect.ownKeys</code>.</li>
-                    <li><b>defineProperty / deleteProperty</b> — define/delete ops.</li>
+                    <li><b>get / set</b>  -  property access/assign; mind the <i>receiver</i> for <code>this</code> binding.</li>
+                    <li><b>has</b>  -  <code>k in obj</code>.</li>
+                    <li><b>ownKeys</b>  -  <code>Object.keys</code>, spread, <code>Reflect.ownKeys</code>.</li>
+                    <li><b>defineProperty / deleteProperty</b>  -  define/delete ops.</li>
                     <li><b>getPrototypeOf / setPrototypeOf / isExtensible / preventExtensions</b>.</li>
-                    <li><b>apply</b> — calling a function; <b>construct</b> — with <code>new</code>.</li>
+                    <li><b>apply</b>  -  calling a function; <b>construct</b>  -  with <code>new</code>.</li>
                 </ul>
 
                 <h2>Use Reflect to forward</h2>

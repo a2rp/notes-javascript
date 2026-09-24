@@ -51,57 +51,57 @@ obj.class = 3;     // ok
                 </ul>
 
                 {/* ======== ADD-ON: full reserved words with 1–2 line notes ======== */}
-                <h2 style={{ margin: '28px 0 12px' }}>Reserved words — quick notes</h2>
+                <h2 style={{ margin: '28px 0 12px' }}>Reserved words  -  quick notes</h2>
 
                 <h3>Always-reserved keywords</h3>
                 <ul>
-                    <li><code>break</code> — Exit a loop/switch.</li>
-                    <li><code>case</code> — Branch in <code>switch</code>.</li>
-                    <li><code>catch</code> — Handle errors from <code>try</code>.</li>
-                    <li><code>class</code> — Declare class.</li>
-                    <li><code>const</code> — Block-scoped, not reassignable.</li>
-                    <li><code>continue</code> — Next loop iteration.</li>
-                    <li><code>debugger</code> — DevTools breakpoint.</li>
-                    <li><code>default</code> — Fallback in <code>switch</code> / default export.</li>
-                    <li><code>delete</code> — Remove object property.</li>
-                    <li><code>do</code> — Start <code>do…while</code> loop.</li>
-                    <li><code>else</code> — Alternative branch for <code>if</code>.</li>
-                    <li><code>export</code> — Expose bindings from module.</li>
-                    <li><code>extends</code> — Class inheritance.</li>
-                    <li><code>finally</code> — Always runs after <code>try/catch</code>.</li>
-                    <li><code>for</code> — Loop (<code>for</code>, <code>for…of</code>, <code>for…in</code>).</li>
-                    <li><code>function</code> — Function declaration/expression.</li>
-                    <li><code>if</code> — Conditional.</li>
-                    <li><code>import</code> — Bring bindings into a module.</li>
-                    <li><code>in</code> — Key presence in object/prototype chain.</li>
-                    <li><code>instanceof</code> — Prototype-chain check.</li>
-                    <li><code>new</code> — Construct instance; allocates <code>this</code>.</li>
-                    <li><code>return</code> — Exit function with value.</li>
-                    <li><code>super</code> — Parent class access.</li>
-                    <li><code>switch</code> — Multi-branch by value.</li>
-                    <li><code>this</code> — Receiver object (call-site bound).</li>
-                    <li><code>throw</code> — Raise exception.</li>
-                    <li><code>try</code> — Attempt block for errors.</li>
-                    <li><code>typeof</code> — Type query (string).</li>
-                    <li><code>var</code> — Function-scoped binding (avoid in modern code).</li>
-                    <li><code>void</code> — Discard value; yields <code>undefined</code>.</li>
-                    <li><code>while</code> — Loop while condition is true.</li>
-                    <li><code>with</code> — Scope hack; disallowed in strict mode.</li>
-                    <li><code>yield</code> — Pause/resume in generators.</li>
-                    <li><code>let</code> — Block-scoped, reassignable.</li>
+                    <li><code>break</code>  -  Exit a loop/switch.</li>
+                    <li><code>case</code>  -  Branch in <code>switch</code>.</li>
+                    <li><code>catch</code>  -  Handle errors from <code>try</code>.</li>
+                    <li><code>class</code>  -  Declare class.</li>
+                    <li><code>const</code>  -  Block-scoped, not reassignable.</li>
+                    <li><code>continue</code>  -  Next loop iteration.</li>
+                    <li><code>debugger</code>  -  DevTools breakpoint.</li>
+                    <li><code>default</code>  -  Fallback in <code>switch</code> / default export.</li>
+                    <li><code>delete</code>  -  Remove object property.</li>
+                    <li><code>do</code>  -  Start <code>do…while</code> loop.</li>
+                    <li><code>else</code>  -  Alternative branch for <code>if</code>.</li>
+                    <li><code>export</code>  -  Expose bindings from module.</li>
+                    <li><code>extends</code>  -  Class inheritance.</li>
+                    <li><code>finally</code>  -  Always runs after <code>try/catch</code>.</li>
+                    <li><code>for</code>  -  Loop (<code>for</code>, <code>for…of</code>, <code>for…in</code>).</li>
+                    <li><code>function</code>  -  Function declaration/expression.</li>
+                    <li><code>if</code>  -  Conditional.</li>
+                    <li><code>import</code>  -  Bring bindings into a module.</li>
+                    <li><code>in</code>  -  Key presence in object/prototype chain.</li>
+                    <li><code>instanceof</code>  -  Prototype-chain check.</li>
+                    <li><code>new</code>  -  Construct instance; allocates <code>this</code>.</li>
+                    <li><code>return</code>  -  Exit function with value.</li>
+                    <li><code>super</code>  -  Parent class access.</li>
+                    <li><code>switch</code>  -  Multi-branch by value.</li>
+                    <li><code>this</code>  -  Receiver object (call-site bound).</li>
+                    <li><code>throw</code>  -  Raise exception.</li>
+                    <li><code>try</code>  -  Attempt block for errors.</li>
+                    <li><code>typeof</code>  -  Type query (string).</li>
+                    <li><code>var</code>  -  Function-scoped binding (avoid in modern code).</li>
+                    <li><code>void</code>  -  Discard value; yields <code>undefined</code>.</li>
+                    <li><code>while</code>  -  Loop while condition is true.</li>
+                    <li><code>with</code>  -  Scope hack; disallowed in strict mode.</li>
+                    <li><code>yield</code>  -  Pause/resume in generators.</li>
+                    <li><code>let</code>  -  Block-scoped, reassignable.</li>
                 </ul>
 
                 <h3>Context-dependent reserved</h3>
                 <ul>
-                    <li><code>await</code> — Reserved in modules & inside <code>async</code> fns (await Promises).</li>
-                    <li><code>enum</code> — Future-reserved (do not use as identifier).</li>
-                    <li><code>implements</code>, <code>interface</code>, <code>package</code>, <code>private</code>, <code>protected</code>, <code>public</code> — Reserved in strict mode for potential future features.</li>
+                    <li><code>await</code>  -  Reserved in modules & inside <code>async</code> fns (await Promises).</li>
+                    <li><code>enum</code>  -  Future-reserved (do not use as identifier).</li>
+                    <li><code>implements</code>, <code>interface</code>, <code>package</code>, <code>private</code>, <code>protected</code>, <code>public</code>  -  Reserved in strict mode for potential future features.</li>
                 </ul>
 
                 <h3>Literals (never identifiers)</h3>
                 <ul>
-                    <li><code>null</code> — Intentional “no value”.</li>
-                    <li><code>true</code>, <code>false</code> — Boolean literals.</li>
+                    <li><code>null</code>  -  Intentional “no value”.</li>
+                    <li><code>true</code>, <code>false</code>  -  Boolean literals.</li>
                 </ul>
             </Styled.Prose>
         </Styled.Wrapper>

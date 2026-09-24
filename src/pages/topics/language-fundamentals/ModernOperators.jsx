@@ -64,7 +64,7 @@ obj[key] ??= new Map();         // creates once`}</Styled.Pre>
                 <ul>
                     <li><b>Grammar:</b> you can't mix <code>??</code> directly with <code>||</code>/<code>&amp;&amp;</code> without parentheses.</li>
                     <li>Common combo: <code>user?.prefs?.theme ?? "dark"</code>.</li>
-                    <li>Guarded calls: <code>maybeCb?.(value)</code> — safe optional function call.</li>
+                    <li>Guarded calls: <code>maybeCb?.(value)</code>  -  safe optional function call.</li>
                 </ul>
                 <Styled.Pre>{`// Parens required:
 (a ?? b) || c

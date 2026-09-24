@@ -22,7 +22,7 @@ export default function ControlFlow() {
                 <h2 style={{ margin: "28px 0 12px" }}>if / else (bread & butter)</h2>
                 <ul>
                     <li>Use braces even for one-liners; prefer <b>guard clauses</b> to reduce nesting.</li>
-                    <li>Conditions use truthy/falsy coercion—be explicit when needed.</li>
+                    <li>Conditions use truthy/falsy coercion - be explicit when needed.</li>
                     <li>
                         Assignment in a condition is valid; wrap in <code>{`( )`}</code> if intentional (lint:
                         <code> no-cond-assign</code>).
@@ -65,7 +65,7 @@ const label = ({ 0: "zero", 1: "one" }[n]) ?? "other";`}</Styled.Pre>
 
                 <h2 style={{ margin: "28px 0 12px" }}>Ternary (?:)</h2>
                 <ul>
-                    <li>Expression form for small choices—keep it short and flat.</li>
+                    <li>Expression form for small choices - keep it short and flat.</li>
                     <li>Avoid nested ternaries; switch/if is clearer when complex.</li>
                 </ul>
                 <Styled.Pre>{`const msg = ready ? "go" : "wait";
@@ -88,7 +88,7 @@ const port = Number(env.PORT ?? 3000); // default only when null/undefined`}</St
                         In <code>switch</code>, comment intentional fall-through and include a{" "}
                         <code>default</code>.
                     </li>
-                    <li>Prefer clarity over cleverness—parenthesize complex conditions.</li>
+                    <li>Prefer clarity over cleverness - parenthesize complex conditions.</li>
                     <li>Use <code>??</code> when <code>0</code>/<code>""</code>/<code>false</code> are valid.</li>
                 </ul>
             </Styled.Prose>

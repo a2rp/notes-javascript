@@ -41,7 +41,7 @@ do { input = get(); } while (!valid(input));`}</Styled.Pre>
                 <h2 style={{ margin: "28px 0 12px" }}>Iterating arrays & iterables</h2>
                 <ul>
                     <li><b>for…of</b> iterates values of any iterable (arrays, strings, Maps, Sets).</li>
-                    <li><b>for…in</b> iterates <i>keys</i> (incl. inherited) — avoid on arrays (use its own topic for details).</li>
+                    <li><b>for…in</b> iterates <i>keys</i> (incl. inherited)  -  avoid on arrays (use its own topic for details).</li>
                 </ul>
                 <Styled.Pre>{`for (const v of [10,20,30]) { /* v = 10,20,30 */ }
 for (const ch of "hi") { /* h, i */ }

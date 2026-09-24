@@ -88,7 +88,7 @@ sq(4); sq(4);        // 16 (second call from cache)`}</Styled.Pre>
                     </li>
                     <li>
                         <b>Memory leaks:</b> long-lived closures keep captured objects alive. Clean up event
-                        listeners/timers; avoid capturing big DOM nodes—pass IDs or use <code>WeakMap</code>.
+                        listeners/timers; avoid capturing big DOM nodes - pass IDs or use <code>WeakMap</code>.
                     </li>
                     <li>
                         <b>Debugging:</b> in devtools, inspect a paused closure’s “Scope” panel to see captured

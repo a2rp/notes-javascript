@@ -44,7 +44,7 @@ Boolean(new Boolean(false)) // true (object is truthy)`}</Styled.Pre>
                 <Styled.Pre>{`// || picks the right-hand side when left is *falsy* (0, "", etc.)
 const size = user.size || 16;    // if size = 0 (valid), this becomes 16 ❌
 
-// ?? only falls back on null/undefined — keeps 0, "" and false
+// ?? only falls back on null/undefined  -  keeps 0, "" and false
 const safeSize = user.size ?? 16; // if size = 0, stays 0 ✅
 
 const label = user.name && "Has name"; // returns "Has name" or a falsy value (not strictly boolean)
@@ -57,14 +57,14 @@ const label = user.name && "Has name"; // returns "Has name" or a falsy value (n
                         <b>Fallbacks:</b> use <code>??</code> when <code>0</code>/<code>""</code>/<code>false</code> are legitimate values.
                     </li>
                     <li>
-                        <b>Guarded access:</b> combine with optional chaining — <code>user?.age ?? 0</code>.
+                        <b>Guarded access:</b> combine with optional chaining  -  <code>user?.age ?? 0</code>.
                     </li>
                 </ul>
 
                 <h2 style={{ margin: "28px 0 12px" }}>Edge notes</h2>
                 <ul>
                     <li>
-                        Objects are always truthy—even "empty" ones. Don't check emptiness with <code>if (obj)</code>; test keys/length.
+                        Objects are always truthy - even "empty" ones. Don't check emptiness with <code>if (obj)</code>; test keys/length.
                     </li>
                     <li>
                         Legacy quirk: <code>document.all</code> is treated as falsy and special in loose checks; avoid relying on it.

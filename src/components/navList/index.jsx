@@ -40,7 +40,7 @@ const NavListCore = () => {
             </h3>
 
             {/* =====================
-          JavaScript — CORE
+          JavaScript  -  CORE
          ====================== */}
             <h3>Language Fundamentals</h3>
             <ul>

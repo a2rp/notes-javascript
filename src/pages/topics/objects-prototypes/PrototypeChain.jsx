@@ -110,7 +110,7 @@ Object.keys(o);         // ["b"]`}</Styled.Pre>
                 <h2>Null-prototype objects (dictionary mode)</h2>
                 <ul>
                     <li>
-                        <code>Object.create(null)</code> makes an object with no prototype — no accidental collisions with
+                        <code>Object.create(null)</code> makes an object with no prototype  -  no accidental collisions with
                         <code>toString</code>, etc.
                     </li>
                     <li>Use when you need a pure key→value map (or just use <code>Map</code>).</li>

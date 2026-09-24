@@ -22,10 +22,10 @@ export default function LabelsBreakContinue() {
 
                 <h2 style={{ margin: "28px 0 12px" }}>Rules (quick)</h2>
                 <ul>
-                    <li><b>break;</b> — exits the nearest loop or switch.</li>
-                    <li><b>break label;</b> — exits the <i>labeled statement</i> (loop or block).</li>
-                    <li><b>continue;</b> — skips to the next iteration of the nearest loop.</li>
-                    <li><b>continue label;</b> — jumps to the next iteration of the <i>labeled loop</i> (loops only).</li>
+                    <li><b>break;</b>  -  exits the nearest loop or switch.</li>
+                    <li><b>break label;</b>  -  exits the <i>labeled statement</i> (loop or block).</li>
+                    <li><b>continue;</b>  -  skips to the next iteration of the nearest loop.</li>
+                    <li><b>continue label;</b>  -  jumps to the next iteration of the <i>labeled loop</i> (loops only).</li>
                     <li>Labels prefix any single statement: <code>outer: for (...) &#123; ... &#125;</code></li>
                     <li><code>continue</code> cannot target a plain block or <code>switch</code> (loops only).</li>
                     <li>You can’t jump across function boundaries.</li>
@@ -63,7 +63,7 @@ for (let r = 0; r < table.length; r++) {
 }
 if (error) handle(error);`}</Styled.Pre>
 
-                <p><b>4) switch inside a loop — break vs continue</b></p>
+                <p><b>4) switch inside a loop  -  break vs continue</b></p>
                 <Styled.Pre>{`for (const t of tokens) {
   switch (t.type) {
     case "skip":
@@ -89,14 +89,14 @@ for (const x of xs) {
                 <h2 style={{ margin: "28px 0 12px" }}>When to use labels (and when not to)</h2>
                 <ul>
                     <li><b>Good:</b> rare cases of nested loops where a clean early exit improves clarity.</li>
-                    <li><b>Avoid:</b> complex spaghetti flows—prefer extracting to functions + <code>return</code>, or restructure with flags/guards.</li>
+                    <li><b>Avoid:</b> complex spaghetti flows - prefer extracting to functions + <code>return</code>, or restructure with flags/guards.</li>
                     <li>Linters: consider enabling <code>no-labels</code> / <code>no-extra-label</code> and allow exceptions where helpful.</li>
                 </ul>
 
                 <h2 style={{ margin: "28px 0 12px" }}>Must-know (checklist)</h2>
                 <ul>
                     <li><code>continue label</code> targets loops only; <code>break label</code> can target loops or labeled blocks.</li>
-                    <li>Don’t jump into a block—labels only jump <i>out</i> of one.</li>
+                    <li>Don’t jump into a block - labels only jump <i>out</i> of one.</li>
                     <li>Prefer readability: if labels feel confusing, extract logic to a function and use <code>return</code>.</li>
                 </ul>
             </Styled.Prose>

@@ -47,7 +47,7 @@ import "./polyfills.js";`}</Styled.Pre>
                 <h2>Live bindings (important)</h2>
                 <ul>
                     <li>Imports are <b>views</b> over the exporter's variables; they update when the exporter changes.</li>
-                    <li>Imports are read-only — you can't reassign them.</li>
+                    <li>Imports are read-only  -  you can't reassign them.</li>
                 </ul>
                 <Styled.Pre>{`// math.js
 export let count = 0;

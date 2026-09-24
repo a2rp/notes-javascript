@@ -114,7 +114,7 @@ const ok = !!user && user.isActive === true;`}</Styled.Pre>
                         Use parentheses around exponent/unary combos; <code>**</code> is right-assoc.
                     </li>
                     <li>
-                        Comparisons with strings are lexicographic—coerce to numbers if that’s what you mean.
+                        Comparisons with strings are lexicographic - coerce to numbers if that’s what you mean.
                     </li>
                     <li>
                         Don’t mix BigInt with Number in math; comparisons are fine.

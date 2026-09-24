@@ -73,7 +73,7 @@ const b =  color         & 0xff;  // 0x56`}</Styled.Pre>
                         BigInt supports <code>&amp;</code>, <code>|</code>, <code>^</code>, <code>~</code>,{" "}
                         <code>&lt;&lt;</code>, <code>&gt;&gt;</code> (no unsigned <code>&gt;&gt;&gt;</code>).
                     </li>
-                    <li>Don’t mix Number and BigInt in one op—cast intentionally.</li>
+                    <li>Don’t mix Number and BigInt in one op - cast intentionally.</li>
                 </ul>
 
                 <h2 style={{ margin: "28px 0 12px" }}>Must-know (checklist)</h2>

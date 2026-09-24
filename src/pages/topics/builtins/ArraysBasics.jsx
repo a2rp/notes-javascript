@@ -130,7 +130,7 @@ Array.isArray({ length: 0 }); // false`}</Styled.Pre>
                         <code>for…of</code> iterates values; avoid <code>for…in</code> on arrays (it walks keys +
                         prototypes).
                     </li>
-                    <li>All common copies are shallow—nested objects are shared references.</li>
+                    <li>All common copies are shallow - nested objects are shared references.</li>
                 </ul>
             </Styled.Prose>
         </Styled.Wrapper>

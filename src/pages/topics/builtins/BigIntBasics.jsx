@@ -93,7 +93,7 @@ BigInt.asUintN(8, 255n);   // 255n`}</Styled.Pre>
                 <h2>When to use</h2>
                 <ul>
                     <li>IDs, counters, crypto, hashes, large monetary integers (store minor units), precise combinatorics.</li>
-                    <li>Not for fractions — BigInt is <b>integers only</b>.</li>
+                    <li>Not for fractions  -  BigInt is <b>integers only</b>.</li>
                 </ul>
 
                 <h2>Must-know (checklist)</h2>
@@ -101,7 +101,7 @@ BigInt.asUintN(8, 255n);   // 255n`}</Styled.Pre>
                     <li>Use <code>n</code> literal or <code>BigInt()</code>; operations require both sides BigInt.</li>
                     <li>Division truncates; bitwise ops work (no unsigned <code>&gt;&gt;&gt;</code>).</li>
                     <li>Don't mix with Number in math; convert explicitly and mind precision loss.</li>
-                    <li>JSON doesn't support BigInt — convert via replacer.</li>
+                    <li>JSON doesn't support BigInt  -  convert via replacer.</li>
                     <li>For fixed-width behavior, use <code>BigInt.asIntN/asUintN</code>.</li>
                 </ul>
             </Styled.Prose>

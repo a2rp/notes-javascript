@@ -39,7 +39,7 @@ export default function Equality() {
                 </ul>
 
                 <h2 style={{ margin: "28px 0 12px" }}>Tiny examples</h2>
-                <Styled.Pre>{`// Loose (==) — small table
+                <Styled.Pre>{`// Loose (==)  -  small table
 "" == 0            // true
 "0" == 0           // true
 false == 0         // true
@@ -91,7 +91,7 @@ m.set(NaN, "x"); m.get(NaN) // "x"`}</Styled.Pre>
                     <li>
                         Avoid <code>==</code> unless intentionally using its rules (e.g., <code>null == undefined</code> only).
                     </li>
-                    <li>Objects compare by reference, not structure—use deep compare when needed.</li>
+                    <li>Objects compare by reference, not structure - use deep compare when needed.</li>
                 </ul>
             </Styled.Prose>
         </Styled.Wrapper>

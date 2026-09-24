@@ -89,7 +89,7 @@ Object.isFrozen(o);      Object.freeze(o);`}</Styled.Pre>
                         (not back to true) and change <code>value</code> while writable.
                     </li>
                     <li>
-                        <b>defineProperty defaults to non-writable/non-enumerable/non-configurable</b> — set
+                        <b>defineProperty defaults to non-writable/non-enumerable/non-configurable</b>  -  set
                         flags explicitly if you need normal behavior.
                     </li>
                     <li>

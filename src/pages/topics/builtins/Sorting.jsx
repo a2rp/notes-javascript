@@ -106,7 +106,7 @@ const sorted = items
                 <ul>
                     <li><code>sort</code> mutates; <code>toSorted</code> returns a copy.</li>
                     <li>Default is string ordering; pass a comparator for numbers/dates/objects.</li>
-                    <li>Comparator must return negative/zero/positive — not booleans.</li>
+                    <li>Comparator must return negative/zero/positive  -  not booleans.</li>
                     <li>Sort is stable (ties keep original order) in modern JS.</li>
                     <li>Use <code>localeCompare</code>/<code>Intl.Collator</code> for human-friendly and numeric-aware sorting.</li>
                     <li>Compose comparators for multi-key sorts; push nullish values to the end when needed.</li>

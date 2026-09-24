@@ -80,7 +80,7 @@ class Counter {
                 <h2>Common pitfalls</h2>
                 <ul>
                     <li>Returning an object with implicit return requires parentheses: <code>{`x => ({x})`}</code>.</li>
-                    <li>Don't use arrows for event handlers if you rely on element-bound <code>this</code> — use the event object instead (<code>e.currentTarget</code>).</li>
+                    <li>Don't use arrows for event handlers if you rely on element-bound <code>this</code>  -  use the event object instead (<code>e.currentTarget</code>).</li>
                     <li>Arrows can't be generators (<code>yield</code> not allowed).</li>
                 </ul>
                 <Styled.Pre>{`// Event handler: prefer event.currentTarget over 'this'
@@ -98,7 +98,7 @@ button.addEventListener("click", (e) => {
                 <h2>Must-know (checklist)</h2>
                 <ul>
                     <li>Lexical <code>this</code>; <code>call/apply/bind</code> won't change it.</li>
-                    <li>No own <code>arguments</code> — use rest params.</li>
+                    <li>No own <code>arguments</code>  -  use rest params.</li>
                     <li>Not constructible; no <code>prototype</code>.</li>
                     <li>Implicit return only for single expressions; wrap objects in <code>( )</code>.</li>
                     <li>Use normal methods when you need a dynamic <code>this</code> or want the function on the prototype.</li>

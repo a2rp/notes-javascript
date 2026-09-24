@@ -52,22 +52,22 @@ export default function Hoisting() {
                 </ul>
 
                 <h2 style={{ margin: "28px 0 12px" }}>Tiny examples</h2>
-                <Styled.Pre>{`// var — hoisted & initialized
+                <Styled.Pre>{`// var  -  hoisted & initialized
 console.log(v); // undefined
 var v = 1;      // init happens here`}</Styled.Pre>
 
-                <Styled.Pre>{`// let/const — hoisted to TDZ (no access before line)
+                <Styled.Pre>{`// let/const  -  hoisted to TDZ (no access before line)
 console.log(l); // ReferenceError (TDZ)
 let l = 1;
 
 typeof c;       // ReferenceError (TDZ)
 const c = 2;`}</Styled.Pre>
 
-                <Styled.Pre>{`// Function declaration — fully hoisted
+                <Styled.Pre>{`// Function declaration  -  fully hoisted
 greet();                 // "hi"
 function greet(){ console.log("hi"); }`}</Styled.Pre>
 
-                <Styled.Pre>{`// Function expression / arrow — not hoisted as a function
+                <Styled.Pre>{`// Function expression / arrow  -  not hoisted as a function
 console.log(add); // undefined (var hoists)
 var add = function(a,b){ return a+b; };
 // add(1,2) now works
@@ -76,7 +76,7 @@ var add = function(a,b){ return a+b; };
 // inc(1)              // ReferenceError
 const inc = (x) => x + 1;`}</Styled.Pre>
 
-                <Styled.Pre>{`// Class declaration — TDZ
+                <Styled.Pre>{`// Class declaration  -  TDZ
 // new Person();       // ReferenceError
 class Person { constructor(name){ this.name = name; } }
 new Person("A");       // ok after declaration`}</Styled.Pre>
@@ -110,7 +110,7 @@ which(); // "B"`}</Styled.Pre>
                     <li>Declare <b>before</b> use. Prefer <b>const</b>/<b>let</b>, avoid <b>var</b>.</li>
                     <li>Call functions early only if they’re <b>declarations</b>, not expressions.</li>
                     <li>
-                        Don’t rely on block function hoisting across environments—use{" "}
+                        Don’t rely on block function hoisting across environments - use{" "}
                         <code>const f = () =&gt; { }</code> inside blocks.
                     </li>
                     <li>

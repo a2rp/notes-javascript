@@ -47,7 +47,7 @@ export default function Scope() {
                     <li>
                         Lookups walk <b>inner → outer</b> environments until global. If not found →{" "}
                         <code>ReferenceError</code> (in strict/module; sloppy assignment <i>would</i> create a
-                        global—don’t rely on it).
+                        global - don’t rely on it).
                     </li>
                     <li>
                         Shadowing: an inner declaration with the same name hides the outer one.
@@ -101,7 +101,7 @@ window.A === 1;     // true
                         In modern JS (strict/modules), <b>function declarations inside blocks are block-scoped</b>.
                     </li>
                     <li>
-                        Legacy non-strict browsers had odd semantics—avoid relying on them; prefer{" "}
+                        Legacy non-strict browsers had odd semantics - avoid relying on them; prefer{" "}
                         <code>const f = function(){ }</code> inside the block.
                     </li>
                 </ul>
@@ -121,7 +121,7 @@ window.A === 1;     // true
                         Declare near first use; keep scopes small; prefer extra braces to limit lifetime.
                     </li>
                     <li>
-                        Modules isolate top-level—no accidental globals; use <code>globalThis</code> when you
+                        Modules isolate top-level - no accidental globals; use <code>globalThis</code> when you
                         truly need the global object.
                     </li>
                     <li>

@@ -83,7 +83,7 @@ Object.isFrozen(cfg); // true`}</Styled.Pre>
                         unless you name it explicitly.
                     </li>
                     <li>
-                        <b>Side effects:</b> re-exporting a module still loads/evaluates it once — don't hide
+                        <b>Side effects:</b> re-exporting a module still loads/evaluates it once  -  don't hide
                         heavy side effects behind barrels.
                     </li>
                     <li>

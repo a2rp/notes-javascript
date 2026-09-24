@@ -1,6 +1,6 @@
 import ScrollToTop from './components/ScrollToTop'
 import { Styled } from './App.styled'
-import { Navigate, NavLink, Route, Routes } from 'react-router-dom'
+import { Navigate, NavLink, Route, Routes, useLocation } from 'react-router-dom'
 import { lazy, Suspense, useState } from 'react'
 import { MdMenuOpen } from 'react-icons/md'
 import { CircularProgress } from '@mui/material'
@@ -23,6 +23,7 @@ const Modules = lazy(() => import('./pages/topics/modules'));
 const ObjectsPrototypes = lazy(() => import('./pages/topics/objects-prototypes'));
 
 const App = () => {
+    const location = useLocation();
     const [displayNav, setDisplayNav] = useState(true);
     const handleDisplayNav = () => setDisplayNav(prev => !prev);
 
@@ -32,7 +33,7 @@ const App = () => {
                 <Styled.NavLinkWrapper onClick={handleDisplayNav}>
                     <MdMenuOpen size={20} />
                 </Styled.NavLinkWrapper>
-                <Styled.Heading><NavLink to="/">a2rp: JavaScript Notes</NavLink></Styled.Heading>
+                <Styled.Heading><NavLink to="/"><img src={`${import.meta.env.BASE_URL}logo.png`} alt="Ashish Ranjan logo" />a2rp: JavaScript Notes</NavLink></Styled.Heading>
             </Styled.Header>
 
             <Styled.Main>
@@ -44,7 +45,7 @@ const App = () => {
 
                 <Styled.ContentWrapper id="scroll-root" data-scroll-root>
                     <Styled.RoutesWrapper>
-                        <Suspense fallback={<CircularProgress />}>
+                        <Suspense key={location.pathname} fallback={<CircularProgress />}>
                             <Routes>
                                 {/* Basics */}
                                 <Route path="/" element={<Navigate to="/home" />} />

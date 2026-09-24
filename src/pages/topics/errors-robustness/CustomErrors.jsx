@@ -46,7 +46,7 @@ class HttpError extends AppError {
 }`}</Styled.Pre>
 
                 <h2>Wrapping with <code>cause</code> (error chaining)</h2>
-                <p>Always keep the original failure — it's gold for debugging.</p>
+                <p>Always keep the original failure  -  it's gold for debugging.</p>
                 <Styled.Pre>{`try {
   JSON.parse(text);
 } catch (e) {

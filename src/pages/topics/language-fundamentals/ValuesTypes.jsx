@@ -25,27 +25,27 @@ export default function ValuesTypes() {
                 <h2 style={{ margin: "28px 0 12px" }}>Primitives (quick notes)</h2>
                 <ul>
                     <li>
-                        <code>string</code> — immutable text; UTF-16 code units. Methods return new strings.
+                        <code>string</code>  -  immutable text; UTF-16 code units. Methods return new strings.
                     </li>
                     <li>
-                        <code>number</code> — IEEE-754 double; beware precision (<code>0.1+0.2</code>),{" "}
+                        <code>number</code>  -  IEEE-754 double; beware precision (<code>0.1+0.2</code>),{" "}
                         <code>NaN</code>, <code>Infinity</code>, <code>-0</code>.
                     </li>
                     <li>
-                        <code>bigint</code> — arbitrary precision integers (<code>10n</code>); can't mix with{" "}
+                        <code>bigint</code>  -  arbitrary precision integers (<code>10n</code>); can't mix with{" "}
                         <code>number</code> without explicit cast.
                     </li>
                     <li>
-                        <code>boolean</code> — <code>true/false</code>.
+                        <code>boolean</code>  -  <code>true/false</code>.
                     </li>
                     <li>
-                        <code>symbol</code> — unique opaque identifiers; good for private keys and protocols.
+                        <code>symbol</code>  -  unique opaque identifiers; good for private keys and protocols.
                     </li>
                     <li>
-                        <code>undefined</code> — missing value (default for uninitialized bindings).
+                        <code>undefined</code>  -  missing value (default for uninitialized bindings).
                     </li>
                     <li>
-                        <code>null</code> — intentional empty (set by the programmer).
+                        <code>null</code>  -  intentional empty (set by the programmer).
                     </li>
                 </ul>
 

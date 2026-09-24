@@ -56,7 +56,7 @@ export default function TypeChecks() {
                         <code>Object.prototype</code> or <code>null</code>.
                     </li>
                     <li>
-                        <b>Promise-like:</b> thenable test — <code>x &amp;&amp; typeof x.then === "function"</code>
+                        <b>Promise-like:</b> thenable test  -  <code>x &amp;&amp; typeof x.then === "function"</code>
                         .
                     </li>
                 </ul>

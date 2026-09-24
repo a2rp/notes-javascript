@@ -126,7 +126,7 @@ nearlyEqual(0.1 + 0.2, 0.3); // true`}</Styled.Pre>
 
                 <h2>Must-know (checklist)</h2>
                 <ul>
-                    <li><b>floor/ceil/trunc/round</b> behave differently for negatives—know which you need.</li>
+                    <li><b>floor/ceil/trunc/round</b> behave differently for negatives - know which you need.</li>
                     <li>Use <b>clamp</b>, <b>lerp</b>, <b>mapRange</b> for UI/math utilities.</li>
                     <li><b>hypot</b> is the safe Euclidean norm; avoids overflow/underflow.</li>
                     <li><b>randomInt</b> formula above for uniform ints; for security use <b>Web Crypto</b>.</li>

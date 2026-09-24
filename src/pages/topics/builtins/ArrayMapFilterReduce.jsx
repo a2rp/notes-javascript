@@ -125,7 +125,7 @@ const data = await Promise.all(promises);`}</Styled.Pre>
                     <li><code>map(parseInt)</code> is a trap; use <code>Number</code> or a custom callback.</li>
                     <li><code>flatMap</code> = map + one-level flatten; great for conditional expands.</li>
                     <li><b>Async map</b> → array of promises → <code>await Promise.all</code>.</li>
-                    <li>Prefer readability (chain) unless profiling shows a hot path—then fuse passes.</li>
+                    <li>Prefer readability (chain) unless profiling shows a hot path - then fuse passes.</li>
                 </ul>
             </Styled.Prose>
         </Styled.Wrapper>

@@ -86,6 +86,9 @@ const Heading = styled.h1`
     font-size: 14px;
     a {
         color: #aaa;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
         text-decoration: none;
         padding: 2px;
         &:hover {

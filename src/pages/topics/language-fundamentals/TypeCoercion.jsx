@@ -35,7 +35,7 @@ export default function TypeCoercion() {
                         ToPrimitive), do string join; else numeric add.
                     </li>
                     <li>
-                        <b>Boolean contexts</b> (if/while/?:): use <b>ToBoolean</b> — only the 7 falsy values
+                        <b>Boolean contexts</b> (if/while/?:): use <b>ToBoolean</b>  -  only the 7 falsy values
                         are false.
                     </li>
                     <li>
