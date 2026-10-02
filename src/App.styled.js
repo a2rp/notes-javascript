@@ -62,7 +62,7 @@ const Header = styled.div`
     left: 0;
     width: 100%;
     height: 70px;
-    background-color: #010409;
+    background-color: #040404;
     display: flex;
     justify-content: space-between;
     align-items: center;

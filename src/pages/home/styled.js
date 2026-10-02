@@ -16,7 +16,7 @@ export const Styled = {
             legend {
                 padding: 0 15px;
                 font-size: 16px;
-                color: #64493d;
+                color: #4f4f4f;
             }
             p {
                 display: block;

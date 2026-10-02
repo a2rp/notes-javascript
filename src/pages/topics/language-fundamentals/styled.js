@@ -2,7 +2,7 @@ import styled, { css, keyframes } from "styled-components";
 
 /* ---------- Design tokens (dark) ---------- */
 const tokens = {
-    accent: "orangered",
+    accent: "#b3b3b3",
     fg: "#ddd",
     muted: "#aaa",
     cardBg: "hsl(0 0% 100% / 0.04)",

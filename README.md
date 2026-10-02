@@ -2,7 +2,7 @@
 
 A practical React and Vite reference for JavaScript fundamentals, built-ins, modules, asynchronous behavior and advanced language topics.
 
-![JavaScript Notes preview](screenshot.png)
+![JavaScript Notes screenshot](./screenshot.jpg)
 
 ## Features
 

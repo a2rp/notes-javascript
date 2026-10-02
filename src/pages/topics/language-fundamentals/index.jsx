@@ -112,7 +112,7 @@ const Styled = {
         color: #aaa;
         text-decoration: none;
 
-        &:hover { color: orangered; }
+        &:hover { color: #b3b3b3; }
       }
     }
   `,

@@ -26,7 +26,7 @@ export const Styled = {
             text-decoration: none;
         }
         li a:hover {
-            color: orangered;
+            color: #b3b3b3;
             text-decoration: underline;
         }
     `,

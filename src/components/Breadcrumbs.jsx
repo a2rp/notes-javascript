@@ -55,6 +55,6 @@ const Crumbs = styled.nav`
     color: #aaa;
     text-decoration: none;
   }
-  a:hover { color: orangered; text-decoration: underline; }
+  a:hover { color: #b3b3b3; text-decoration: underline; }
   [aria-current="page"] span { color: #ddd; }
 `;
